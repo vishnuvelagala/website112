@@ -1,0 +1,294 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{     
+  background-image:repeating-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;       
+}
+
+.menu-bar
+{
+    max-width: 1530px;
+    
+}
+
+.menu-bar ul
+{   
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+    
+}
+
+.menu-bar ul li
+{
+  display: inline-block;
+    
+}
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color:white;
+    padding:5px 20px;
+    border: 1px solid white;
+    transition: 0.6s ease;
+    
+}
+
+ .menu-bar ul li a:hover
+{
+    background-color:white;
+    color: black;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+    
+}
+
+.logo h1
+{
+  color: aliceblue;    
+  float: left;
+  width: 150px;
+  margin-top:3px;
+}
+
+.title{
+    position: absolute;
+    top:100px;
+    left:50%;
+    transform: translate(-50%,50%);
+}
+
+.title h1
+{
+    color: azure;
+    font-size:50px;
+}
+.geeks 
+
+{
+    width:590px;
+    height:500px;
+    background-color:gray;
+    position: absolute;
+    top:250px;
+    left:50px;
+    border-radius: 20px;
+}
+
+.geeks h1
+{   margin-top:5px;
+    text-align: center;
+     
+}
+ 
+
+.conter
+{
+ 
+    margin: 0;
+    padding: 0;
+     margin-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.slider
+{
+   width:500px;
+   height: 400px;
+   border-radius:10px;
+   overflow: hidden;    
+}
+
+.slides
+{
+   width:500px;
+   height:400px;
+   display: flex;
+}
+
+.slides input
+{
+   display:none; 
+}
+
+.slide
+{
+  width:500px;
+  transition: 2s;      
+       
+}
+.caption
+{
+        
+}
+
+.slide img
+{
+  width:500px;
+  height:400px;
+}
+
+    
+
+.navigation-manual
+{
+  position: absolute;
+  width:500px;
+  bottom:80px;
+  display:flex;    
+  justify-content: center;
+}
+
+.manual-btn
+{
+   border: 2px solid #40D3DC; 
+   padding: 5px;
+   border-radius:10px;
+   cursor: pointer;
+   transition: 1s;
+    
+}
+
+
+.manual-btn:not(:last-child)
+{
+    margin-right: 10px;
+    
+}
+
+.manual-btn:hover
+{
+    background:#40D3Dc;
+}
+
+#radiol:checked ~ .first
+{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .first
+{
+    margin-left: -100%;
+}
+
+
+.
+.navidation-auto
+{
+   position: absolute;
+   display: flex;
+    width: 800px;
+    justify-content:center;
+    margin-top: 460px;
+   
+    
+}
+
+.navidation-auto div
+{
+    border: 2px solid #40D3Dc;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s; 
+}
+
+.navidation-auto div:not(:last-child)
+{
+    margin-right:40px;
+}
+
+#radio1:checked ~ .navidation-auto .auto-btn1
+{
+    background:#40D3Dc;
+    margin-left: -0%;
+    
+}
+
+
+#radio2:checked ~ .navidation-auto .auto-btn2
+{
+    background:#40D3Dc;
+    
+}
+.geeks1
+{
+    width:650px;
+    height:250px;
+    background-color:grey;
+    position: absolute;
+    top:250px;
+    left:800px;
+    border-radius: 20px;   
+}
+
+.geeks1 h2
+{
+    margin-top:5px;
+    text-align: center;
+   
+}
+
+.title2{
+    position: absolute;
+    top:475px;
+    left:1150px;
+    transform: translate(-50%,50%);
+}
+
+.title2 h1
+{
+    color: azure;
+    font-size:40px;
+    padding-left:40px;
+}
+
+
+ .title2 ul
+{   
+    
+    list-style: none;
+    margin-top: 25px;
+    
+}
+
+.title2 ul li
+{
+  display: inline-block;
+    
+}
+
+.title2 ul li a
+{
+    text-decoration: none;
+    color:white;
+    padding:10px 30px;
+    border: 1px solid white;
+    transition: 0.6s ease;
+    
+}
+
+ .title2 ul li a:hover
+{
+    background-color:white;
+    color: black;
+    border-radius: 3px;
+}
+
+
+
+
